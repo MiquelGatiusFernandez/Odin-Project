@@ -1,1 +1,1 @@
-# odin-frontpage
+# odin-project main folder
