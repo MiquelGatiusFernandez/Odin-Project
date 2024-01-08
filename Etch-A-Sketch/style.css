@@ -1,29 +1,47 @@
-body{
+body {
     display: block;
-    flex:1;
+    flex: 1;
     background-color: #eeeeee;
+    padding: 0px;
+    margin: 0px;
 }
 
-.center{
+.center {
     align-items: center;
     justify-content: center;
 }
 
-.header{
+.header {
     display: flex;
-    flex:1;
+    flex: 1;
 }
 
-.sketch{
+.sketch {
+    display: flex;
+}
+
+.block-div {
     display: flex;
     flex-wrap: wrap;
-}
-.block-div{
-    display: flex;
+    width: 500px;
+    height: 500px;
     flex-wrap: wrap;
-    background-color: white;
-    width:500px;
+    outline: 1px;
+    padding: 0px;
+    margin: 0px;
 }
-.footer{
+
+.block {
+    padding: 0px;
+    margin: 0px;
+   
+    border-width: 0.5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing:border-box;
+    outline: 1px;
+}
+
+.footer {
     display: flex;
 }
