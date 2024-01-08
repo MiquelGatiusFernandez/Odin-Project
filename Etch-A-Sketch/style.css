@@ -1,0 +1,29 @@
+body{
+    display: block;
+    flex:1;
+    background-color: #eeeeee;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    flex:1;
+}
+
+.sketch{
+    display: flex;
+    flex-wrap: wrap;
+}
+.block-div{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width:500px;
+}
+.footer{
+    display: flex;
+}
