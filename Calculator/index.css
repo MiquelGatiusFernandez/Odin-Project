@@ -5,7 +5,7 @@ body {
     margin: 0px;
     align-items: center;
     justify-content: center;
-}
+    }
 
 /*whole calculator*/
 .calculator {
@@ -85,4 +85,15 @@ body {
 .operator-style {
     width: 35px;
     height: 30px;
+}
+
+.number-style-clear{
+    width: 45px;
+    height: 30px;
+    background-color: lightblue;
+}
+.number-style-equal{
+    width: 45px;
+    height: 30px;
+    background-color: lightsalmon;
 }

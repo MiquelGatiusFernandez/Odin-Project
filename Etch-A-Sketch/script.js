@@ -2,7 +2,6 @@ let numberOfBlocks = 4;
 let width = 500;
 let divBlock = document.querySelector(".block-div");
 let button = document.querySelector(".prompt");
-//divBlock.textContent = "new text";
 
 let widthHeight = width / numberOfBlocks;
 
