@@ -90,14 +90,10 @@ const checkOperator = function checkOperatorAndOperate(sign) {
             }
             default: {
                 return "Error";
-                break;
             }
         }
         secondariNumber = '';
         console.log(currentOperator + "current");
-
-
-
 }
 
 
