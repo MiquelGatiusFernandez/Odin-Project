@@ -1,0 +1,149 @@
+:root{
+--text-left:#ffffff;
+}
+
+body{
+    display: flex;
+    width:100vw;
+    height:100vh;
+    margin:0px;
+    padding:0px;
+    align-items: center;
+    justify-content: center;
+}
+/* left part */
+.left-section{
+ background-image: url("picture.jpg");
+ background-repeat: no-repeat;
+ width:35vw;
+ height:100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content:flex-end;
+ gap:50vh;
+}
+
+.logo-div{
+    background: rgba(0, 0, 0, 0.5);
+    width:35vw;
+    height:15vh;
+    color: var(--text-left);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.odin-logo{
+    opacity:100%;
+    width:5vw;
+    height:10vh;
+    
+}
+.odin-text{
+    opacity:1;
+    color:var(--text-left);
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: 8vh;
+}
+
+.footer-text{
+    color: var(--text-left);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* right part */
+.right-section{
+    width:65vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.header-right{
+    width:65vw;
+    height:35vh;
+    background-color: #f9fafb;
+    font-weight: bold;
+    font-size: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.header-right > p{
+    width:40vw;
+    height:5vh;
+    padding: 10px 10px 30px 30px;
+    
+}
+
+.form-style{
+    width:65vw;
+    height:30vh;
+    display: block;
+    padding-left: 30px;
+    
+}
+.form-style > legend{
+ font-size: 2.5vh;  
+}
+.form-style > legend > h2{
+    padding-top:10px;
+    margin:0px;  
+   }
+.form-style > div{
+    display: flex;
+    font-size: 2vh;
+    gap:30px;
+    padding-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-style > div > div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input{
+    width:15vw;
+    height: 2.5vh;
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 3px;
+}
+input:focus{
+    outline: none;
+    border: 3px solid blue;
+}
+
+.error-passwords{
+    color:red;
+}
+.footer-right{  
+    padding-top: 20px;
+    padding-left: 30px;
+    width:65vw;
+    height:35vh;
+    background-color: #f9fafb;
+
+    & button{
+        height: 5vh;
+        width: 15vw;
+        border: 1px solid;
+        border-radius: 6px;
+        color:white;
+        background-color:#596D48;
+    }
+    & p{
+        font-size: 2.5vh;
+        font-weight: bold;
+    }
+    & a{
+        color:#596D48;
+    }
+}
