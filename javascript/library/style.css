@@ -1,0 +1,21 @@
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.book {
+    width: 25vw;
+    height: 25vh;
+    background-color: grey;
+}
+
+.not-read-book {
+    background-color: red;
+    color:pink;
+}
+
+.read-book {
+    background-color: blue;
+    color:white;
+}
