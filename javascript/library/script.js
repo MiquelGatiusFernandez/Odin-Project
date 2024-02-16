@@ -49,6 +49,12 @@ function addBookToLibrary(book) {
     })
     div.appendChild(bookRead);
 
+    let deleteButton = document.createElement("button");
+    bookRead.type = "button";
+    bookRead.addEventListener("click", (event) => {
+        changeRead(event);
+    })
+
     container.appendChild(div);
 
 }

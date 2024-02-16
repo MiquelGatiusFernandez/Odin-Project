@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+    .cell-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 15px;
+        gap:15px;
+        background-color: blue;
+        justify-content: center;
+        align-items: center;
+    }
+    .cell{
+        width: 25vw;
+        height: 25vh;
+        display:flex;
+        background-color: red;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+    }
