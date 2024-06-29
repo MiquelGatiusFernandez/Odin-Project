@@ -1,0 +1,21 @@
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 99%;
+    background-color: grey;
+}
+
+.burger-image{
+    width: 10%;
+    height: auto;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
